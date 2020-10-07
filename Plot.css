@@ -1,8 +1,4 @@
-
-/*
-  Plot.css Framework and normalize.css v8.0.1 | MIT License
-  By: https://github.com/Sketnext And github.com/necolas/normalize.css
-*/
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html{line-height: 1.15; -webkit-text-size-adjust: 100%;}
 body{margin: 0;font-family: sans-serif;}
 main{display: block;}
@@ -50,10 +46,13 @@ template {display: none;}
 .dif{display: inline-flex!important;}
 
 .dn{display: none;}
+.dni{display: none!important;}
 .dfac{display: flex;justify-content: center; align-items: center;}
 .dfai{display: flex;align-items: center;}
 .dfjc{display: flex;justify-content: center;}
 .dfae{display: flex;align-items: end;}
+
+.aife{display: flex;align-items: flex-end;}
 
 .jcc{justify-content: center;}
 .aic{align-items: center;}
@@ -66,7 +65,7 @@ template {display: none;}
 .dg{display: grid;}
 
 .dg_2r{display: grid; grid-template-columns: 0fr 10fr; grid-gap: 8px;}
-
+.dg_3c{display: grid; grid-template-columns: 1fr 1fr 1fr;}
 .t0{top: 0px;}
 .b0{bottom: 0px;}
 .l0{left: 0px;}
@@ -111,19 +110,24 @@ template {display: none;}
 .bcw{background-color: white;}
 .bct{background-color: transparent;}
 
-.m5{margin: 5px}
-.m10{margin: 10px}
-.m20{margin: 20px}
+.m5{margin: 5px;}
+.m10{margin: 10px;}
+.m20{margin: 20px;}
 .m0tb{margin-top: 0;margin-bottom: 0;}
 .p0{padding: 0!important;}
 .p5{padding: 5px!important;}
 .p10{padding: 10px!important;}
 .pb0{padding-bottom: 0px!important;}
-.pb5{padding-bottom: 5px;}
-.pb10{padding-bottom: 10px;}
-.ml{margin: 0 10px}
+
+.ml{margin: 0 10px;}
+.ml5{margin: 0 5px;}
+.pl{padding: 0 10px!important;}
+
 .mb2m{margin-bottom: 2em!important;}
+.mb20{margin-bottom: 20px!important;}
+.mb15{margin-bottom: 10px!important;}
 .mb10{margin-bottom: 10px!important;}
+.mb7{margin-bottom: 7px!important;}
 .mb5{margin-bottom: 5px!important;}
 .mb0{margin-bottom: 0px!important;}
 .ml20{margin-left: 20px!important;}
@@ -141,8 +145,10 @@ template {display: none;}
 .mt35{margin-top: 35px;}
 .bln{border-left: none!important;}
 .mb10{margin-bottom: 10px;}
+
 .on{outline: none;}
 .cp{cursor: pointer;}
+.lh0{line-height: 0}
 
 .ef_in{filter: invert(1);}
 
@@ -160,12 +166,25 @@ template {display: none;}
 .p10{padding:10px!important;} .p11{padding:11px!important;}
 .p12{padding:12px!important;} .p13{padding:13px!important;}
 .p14{padding:14px!important;}  .p15{padding:15px!important;}
+.p16{padding:16px!important;}  .p17{padding:17px!important;}
 
-.pl5{padding-left:15px!important;}
-.pl10{padding-left:15px!important;}
+.pl5{padding-left:5px!important;}
+.pl10{padding-left:10px!important;}
 .pl15{padding-left:15px!important;}
-.pt5{padding-top: 5px;}
-.pt3{padding-top: 3px;}
+
+.pr5{padding-right:5px!important;}
+.pr10{padding-right:10px!important;}
+.pr15{padding-right:15px!important;}
+
+.pt5{padding-top:5px!important;}
+.pt10{padding-top:10px!important;}
+.pt15{padding-top:15px!important;}
+
+.pb0{padding-bottom:0px!important;}
+.pb5{padding-bottom:5px!important;}
+.pb10{padding-bottom:10px!important;}
+.pb15{padding-bottom:15px!important;}
+
 
 .f5{font-size: 5px}     .f6{font-size: 6px}
 .f7{font-size: 7px}     .f8{font-size: 8px}
@@ -179,11 +198,14 @@ template {display: none;}
 .f23{font-size: 23px}   .f24{font-size: 24px}
 .f25{font-size: 25px}   .f26{font-size: 26px}
 .f27{font-size: 27px}   .f28{font-size: 28px}
+.f29{font-size: 29px}   .f30{font-size: 30px}
+.f31{font-size: 31px}   .f32{font-size: 32px}
+.f33{font-size: 33px}   .f34{font-size: 34px}
 .f35{font-size: 35px}
 
 .ffm{font-family: monospace;}
 .ffs{font-family: sans-serif;}
-.ffb{font-family: "Roboto_bold";}
+.ffb{font-family: "Roboto";}
 
 .ns{-webkit-user-select: none;-moz-user-select: none;
     -khtml-user-select: none;-ms-user-select:none;}
