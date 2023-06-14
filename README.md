@@ -1,6 +1,11 @@
 # Plot
 A simple CSS framework containing a set of declaration classes shortened by their initials, similar to tailwindcss.
 
+**Installation using CDN**:
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sketnext/plot@latest/plot.min.css">
+```
+
 For example, for this html element:
 ```html
 <div class="df br5 pt10 mb7">
